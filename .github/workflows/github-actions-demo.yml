@@ -23,3 +23,5 @@ jobs:
         with:
           folder: build # The folder the action should deploy.
           token: ${{ secrets.ACTION_TOKEN }}
+      - name: Finish
+        run: echo "the aciton is finish"
